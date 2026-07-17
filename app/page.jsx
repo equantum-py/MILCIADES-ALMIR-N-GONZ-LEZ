@@ -1,4 +1,4 @@
-import CurriculumWeb from '@/components/curriculum-web'
+import CurriculumWeb from '@/components/curriculumWeb'
  
 export const metadata = {
   title: 'Milciades Almirón González | CV Digital',
