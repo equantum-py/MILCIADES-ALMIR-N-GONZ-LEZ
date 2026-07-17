@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Download, Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
+import { Download, Mail, Phone, MapPin, ExternalLink, MessageCircle } from 'lucide-react';
 
 export default function CurriculumWeb() {
   const [isDownloading, setIsDownloading] = useState(false);
@@ -57,7 +57,6 @@ export default function CurriculumWeb() {
 
           <div class="section">
             <h2>Experiencia Laboral</h2>
-            
             <div class="entry">
               <div class="entry-title">Pasante — ANDE</div>
               <div class="entry-subtitle">Departamento de Atención de Reclamos</div>
@@ -83,7 +82,6 @@ export default function CurriculumWeb() {
 
           <div class="section">
             <h2>Formación Académica</h2>
-            
             <div class="entry">
               <div class="entry-title">Bachiller Técnico en Electricidad Industrial</div>
               <div class="entry-subtitle">Colegio Nacional San José — Limpio, Paraguay</div>
@@ -334,12 +332,3 @@ export default function CurriculumWeb() {
     </div>
   );
 }
-
-// Importar MessageCircle que falta
-const MessageCircle = ({ className }) => (
-  <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-  </svg>
-);
-
-export default CurriculumWeb;
