@@ -3,7 +3,7 @@
 import dynamic from 'next/dynamic';
 
 const CurriculumWeb = dynamic(
-  () => import('@/components/curriculum-web'),
+  () => import('../components/curriculum-web'),
   {
     loading: () => (
       <div className="flex min-h-screen items-center justify-center bg-slate-950 text-white">
